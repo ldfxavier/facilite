@@ -26,6 +26,10 @@ import WhatsappIcon from '../assets/icons/whatsapp.svg';
 import DunnoIcon from '../assets/icons/dunno.svg';
 import PurpleCloseIcon from '../assets/icons/purple-close.svg';
 import AirplaneIcon from '../assets/icons/airplane.svg';
+import PigIcon from '../assets/icons/pig.svg';
+import PigIcon2 from '../assets/icons/pig2.svg';
+import PigIcon3 from '../assets/icons/pig3.svg';
+import PigIcon4 from '../assets/icons/pig4.svg';
 
 export {
   AddUserIcon,
@@ -56,4 +60,8 @@ export {
   DunnoIcon,
   PurpleCloseIcon,
   AirplaneIcon,
+  PigIcon,
+  PigIcon2,
+  PigIcon3,
+  PigIcon4,
 };
