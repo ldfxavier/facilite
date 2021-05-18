@@ -24,6 +24,8 @@ import ColoredLogoIcon from '../assets/icons/logo-final-aprovado.svg';
 import FacebookIcon from '../assets/icons/facebook.svg';
 import WhatsappIcon from '../assets/icons/whatsapp.svg';
 import DunnoIcon from '../assets/icons/dunno.svg';
+import PurpleCloseIcon from '../assets/icons/purple-close.svg';
+import AirplaneIcon from '../assets/icons/airplane.svg';
 
 export {
   AddUserIcon,
@@ -52,4 +54,6 @@ export {
   FacebookIcon,
   WhatsappIcon,
   DunnoIcon,
+  PurpleCloseIcon,
+  AirplaneIcon,
 };
