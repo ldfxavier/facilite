@@ -1,8 +1,8 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import {
   Wrapper, Left, Right, Box, Logo, SocialMedia, Container, BigDivider, ForgotPassword,
-  Btn1, Btn2, BorderlessButton,
+  Btn1, Btn2, BorderlessButton, DarkScreen,
 } from './styles';
 import {
   ColoredLogoIcon, FacebookIcon, WhatsappIcon, DunnoIcon,
@@ -14,6 +14,7 @@ import Divider from '../../components/Divider';
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
+  const modalRef = useRef();
 
   return (
     <Wrapper>
@@ -42,6 +43,7 @@ const Login = () => {
           <Btn2><h5>Conhecer planos</h5></Btn2>
         </Container>
       </Left>
+      {showPassword && <DarkScreen onClick={() => setShowPassword(false)} />}
       <Right>
         <Box>
           <Logo src={ColoredLogoIcon} alt="logo" />

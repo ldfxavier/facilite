@@ -4,7 +4,6 @@ import Button from '../../components/Button';
 export const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
-  border: 1px solid pink;
   display: flex;
   justify-content: space-between;
 `;
@@ -19,6 +18,16 @@ export const Left = styled.div`
 export const Right = styled.div`
   width: 100%;
   background-color: ${(props) => props.theme.colors.cinza1};
+`;
+
+export const DarkScreen = styled.div`
+  position: absolute;
+  left: 50vw;
+  background-color: ${(props) => props.theme.colors.cinza5};
+  width: 50vw;
+  opacity: 0.5;
+  height: 100%;
+  z-index: 2;
 `;
 
 export const Box = styled.div`
