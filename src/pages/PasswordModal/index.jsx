@@ -13,7 +13,7 @@ import Divider from '../../components/Divider';
 const Password = ({ showPassword, setShowPassword }) => {
   const animation = useSpring({
     opacity: 1,
-    delay: 300,
+    delay: 200,
     reset: showPassword,
     transform: 'translateX(0px)',
     from: {
