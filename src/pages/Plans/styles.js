@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Button from '../../components/Button';
 
 export const PlanModal = styled.div`
   position: absolute;
@@ -46,4 +47,28 @@ export const Elip2 = styled.div`
   height: 18px;
   border-radius: 18px;
   cursor: pointer;
+`;
+
+export const Btn1 = styled(Button)`
+  background-color: #fff;
+  border: 2px solid ${(props) => props.theme.colors.roxoIntermediario};
+
+  .btn-info {
+    color: ${(props) => props.theme.colors.roxoIntermediario};
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
+`;
+
+export const Btn2 = styled(Button)`
+  background-color: #fff;
+  border: 2px solid ${(props) => props.theme.colors.laranja};
+
+  .btn-info {
+    color: ${(props) => props.theme.colors.laranja};
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+  }
 `;

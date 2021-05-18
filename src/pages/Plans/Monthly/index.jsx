@@ -1,7 +1,7 @@
 import React from 'react';
 import { PigIcon4 } from '../../../config/svgs';
 import {
-  Container, Btn, BigDivider, SmallBox, Title, Box,
+  Container, BigDivider, SmallBox, Title, Box,
 } from './styles';
 import Divider from '../../../components/Divider';
 
@@ -24,7 +24,6 @@ const Monthly = () => (
     <SmallBox>
       <h5 className="obs">Cobrado anualmente no boleto ou em 12x no cartão de crédito</h5>
     </SmallBox>
-    <Btn><h5 className="btn-info">Assinar</h5></Btn>
   </Container>
 );
 

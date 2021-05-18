@@ -9,7 +9,7 @@ import Quarterly from './Quarterly';
 import Monthly from './Monthly';
 import Divider from '../../components/Divider';
 import {
-  PlanModal, InfoContainer, Info, Elip1, Elip2, Options,
+  PlanModal, InfoContainer, Info, Elip1, Elip2, Options, Btn1, Btn2,
 } from './styles';
 
 const Plans = ({ showPlans }) => {
@@ -35,6 +35,9 @@ const Plans = ({ showPlans }) => {
             {plan === 2 && <Semiannual />}
             {plan === 3 && <Quarterly />}
             {plan === 4 && <Monthly />}
+            {plan === 2
+              ? <Btn2><h5 className="btn-info">Assinar</h5></Btn2>
+              : <Btn1><h5 className="btn-info">Assinar</h5></Btn1>}
             <Divider />
             <Divider />
             <Options>

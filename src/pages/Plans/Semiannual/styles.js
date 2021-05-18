@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Button from '../../../components/Button';
 
 export const Title = styled.h3`
   color: ${(props) => props.theme.colors.laranja};
@@ -37,17 +36,6 @@ export const Container = styled.div`
     h4 {
       color: ${(props) => props.theme.colors.laranja};
     }
-  }
-`;
-
-export const Btn = styled(Button)`
-  background-color: #fff;
-  border: 2px solid ${(props) => props.theme.colors.laranja};
-
-  .btn-info {
-    color: ${(props) => props.theme.colors.laranja};
-    padding: 0;
-    margin: 0;
   }
 `;
 
