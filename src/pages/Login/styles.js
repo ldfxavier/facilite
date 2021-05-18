@@ -93,3 +93,9 @@ export const Btn2 = styled(Button)`
 export const BigDivider = styled.div`
   height: 80px;
 `;
+
+export const BorderlessButton = styled.button`
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+`;
